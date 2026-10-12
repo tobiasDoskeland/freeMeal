@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Øvelse 46 - meal API</title>
+    <link rel="stylesheet" href="meal.css">
+</head>
+<body onload="body_onload()">
+    <nav>
+        <a href="index.html">Random dish</a>
+        <a id="tilfcocktail" onclick="tilfeldigCocktail()">Random cocktail</a>
+        <a id="mKat">Food categories</a>
+        <a id="dKat">Drink categories</a>
+        <select id="LanSelect" style="float:right; margin-right:50px; width:auto; border: none;background-color: whitesmoke;">
+            <option id="English" selected>Search in English</option>
+            <option id="Norsk" value="no">Søk på Norsk</option>
+        </select>
+        <input id="sokFelt" style="float: right; margin-right: 10px; width: 200px;" type="text" placeholder="search all categories...">
+        <a id="sok" style="float:right ;"><img style="width: 20px; height: auto;" src="https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png"></a>
+    </nav>
+    
+    
+
+    <main id="side"></main>
+
+    <script src="meal.js"></script>
+    <script src="drink.js"></script>
+    
+</body>
+</html>
